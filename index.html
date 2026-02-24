@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de notas</title>
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+</head>
+
+<body class="bg-primary">
+
+    <div class="m-4 ">
+
+        <form id="form" class="form-control d-flex justify-content-center mt-3 align-items-center flex-column p-3">
+            <h2 class="p-3 text-primary fw-bold">Sua média</h2>
+            <input class="form-control mb-3" type="text" placeholder="Nome do aluno" id="nome">
+            <input class="form-control mb-3" type="number" placeholder="1° Nota" id="nota1">
+            <input class="form-control mb-3" type="number" placeholder="2° Nota" id="nota2">
+            <input class="form-control mb-3" type="number" placeholder="3° Nota" id="nota3">
+            <input class="form-control mb-3" type="number" placeholder="4° Nota" id="nota4">
+            <button class="w-100 rounded p-1 bg-primary text-white fw-bold" onclick="calcularMedia()">Calcular média</button>
+        </form>
+
+        <div class="m4">
+            <div class="d-flex justify-content-center mt-3 align-items-center " id="resultado">
+
+            </div>
+        </div>
+
+
+    </div>
+
+<script src="script.js"></script>
+<script src="assets/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
