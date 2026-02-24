@@ -24,10 +24,10 @@ function calcularMedia() {
 
         if(media >=6) {
             resultado.textContent = `😄 Parabéns, ${nome} você atingiu a média com ${media} .`
-            resultado.style.color = "green";
+            resultado.style.color = "white";
         }
 
-        else if(media > 5) {
+        else if(media >=5) {
             resultado.textContent = `😔 Que pena, ${nome} você esta de recuperação coma a média ${media}`
             resultado.style.color = "yellow";
         }
